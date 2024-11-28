@@ -1,0 +1,97 @@
+/* Definindo o estilo para a estrutura HTML */
+html {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: 
+        linear-gradient(#00000082, #00000082),
+        url(/assets/images/70abcca2-046d-49c5-bcd3-e314361189a4.avif);
+        background-size: 10%;
+}
+
+/* Estilo para centralizar o título */
+.titulo23,a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+
+}
+
+/* Estilo para o logo, com ajuste de largura */
+.titulo {
+    width: 40%; /* Ajusta a largura da imagem para não ultrapassar a tela */
+}
+
+/* Garantir que as imagens se ajustem corretamente */
+img {
+    max-width: 100%; /* Garante que as imagens não ultrapassem os limites da tela */
+    height: auto; /* Mantém a proporção das imagens */
+    z-index: -2;
+}
+
+/* Estilo para o texto de descrição do bot */
+.gozei {
+    text-align: center;
+    font-size: 120%;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+/* Estilo para o botão de convite */
+.sex-tion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 100px;
+}
+
+/* Centraliza o botão dentro do contêiner */
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+}
+
+/* Centraliza a div com o botão */
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;
+}
+
+/* Garantir que o link e botão ocupem 100% da área */
+a {
+    height: 100%;
+    width: 100%;
+}
+
+/* Ajustes para o tamanho do botão */
+.butao {
+    height: auto; /* Ajusta a altura para não distorcer */
+    width: 100%;
+}
+
+/* Estilo para a moldura de fundo */
+.moldura {
+    position: fixed; /* A moldura vai ficar fixa na tela */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* A altura vai ocupar 100% da altura da viewport */
+    z-index: -1; /* Coloca a moldura atrás do conteúdo */
+}
+
+h3 {
+    z-index: -2;
+}
